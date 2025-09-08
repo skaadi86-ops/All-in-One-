@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gov Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-text">
+      <h1>Gov Services</h1>
+      <p>All important services in one place</p>
+    </div>
+    <button class="main-action"><i class="fa fa-id-card"></i>Thanks For Visit</button>
+  </header>
+
+  <main class="main">
+    <h2 class="services-title">Services</h2>
+    <section id="serviceGrid" class="service-grid"></section>
+  </main>
+
+  <footer class="footer">
+    <small>Made with ❤️ — Sk Raju</small>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+<footer class="footer-nav">
+  <button class="tab-btn" data-tab="services"><i class="fa fa-th"></i><span>Services</span></button>
+  <button class="tab-btn" data-tab="about"><i class="fa fa-info-circle"></i><span>About</span></button>
+  <button class="tab-btn" data-tab="policy"><i class="fa fa-shield-alt"></i><span>Privacy Policy</span></button>
+  <button class="tab-btn" data-tab="help"><i class="fa fa-question-circle"></i><span>Help</span></button>
+</footer>
+
+<!-- Extra content pages -->
+<section id="aboutPage" class="page hidden">
+  <h2>About</h2>
+  <p>This app provides access to all major Indian government services in one place.</p>
+</section>
+
+<section id="policyPage" class="page hidden">
+  <h2>Privacy Policy</h2>
+  <p>We do not collect personal data. All services open official government portals directly.</p>
+</section>
+
+<section id="helpPage" class="page hidden">
+  <h2>Help</h2>
+  <p>If you need help, contact us at <a href="mailto:">support@example.com</a>.</p>
+  <p>You can also visit official portals for service-specific help.</p>
+</section>
