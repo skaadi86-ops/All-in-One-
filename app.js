@@ -7,10 +7,10 @@ const services = [
     {name:'Beneficiary Status', url:'https://pmkisan.gov.in/homenew.aspx'}
     ]},
       { id: 'rat', name: 'Ration Card', icon: 'fa-id-card', tag: 'farmer', desc: 'Farmer subsidy & beneficiary services', options: [
-    {name:'New Registration or Add Family Member', url:'https://pmkisan.gov.in/homenew.aspx'},
+    {name:'New Registration or Add Family Member', url:'https://wbpds.wb.gov.in/rcmsnew/AadhaarAuthenticationLogin/Index'},
     {name:'Ration Card Status Check', url:'https://wbpds.wb.gov.in/rcmsnew/Citizen/CheckApplicationStatus'},
     {name:'Download E-Ration Card', url:'https://wbpds.wb.gov.in/(S(n41dvcrnk3bapsm43iu1co2w))/E_Card_Download.aspx'},
-    {name:'E-kyc or Aaadhar Link or Active Ration', url:'https://wbpds.wb.gov.in/(S(n41dvcrnk3bapsm43iu1co2w))/E_Card_Download.aspx'}
+    {name:'E-kyc or Aaadhar Link or Active Ration', url:'https://wbpds.wb.gov.in/(S(e11x30mc2pmtaux0fdftm0ii))/EKYC_otp.aspx'}
   ]},
      { id: 'sch', name: 'Aikyashree Scholarship', icon: 'fa-solid fa-book', tag: 'farmer', desc: 'status check,renewal,new Registration', options: [
     {name:'New Registration', url:'https://wbmdfcscholarship.in/aikya_app/district1.php'},
